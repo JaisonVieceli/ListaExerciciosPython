@@ -5,6 +5,6 @@ for n in range(0, 5):
     lista_palavras.append(lista_entrada)
 
 
+foundMaxiWord = max(lista_palavras, key=len)
 
-
-print(lista_palavras)
+print(f"A maior palavra da lista informada é: {foundMaxiWord})
