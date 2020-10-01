@@ -1,7 +1,7 @@
 
 
-numero_inteiro =input("Informe um número inteiro:")
-numero_inteiro =int(numero_inteiro)
+numero_inteiro =int(input("Informe um número inteiro:"))
+
 
 resultado = numero_inteiro % 2
 if (resultado == 0):
