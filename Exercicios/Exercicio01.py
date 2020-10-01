@@ -3,8 +3,8 @@
 lista_ordem = []
 
 for n in range(0, 5):
-    lista_entrada= input("Informe um número inteiro:")
-    lista_entrada= int(lista_entrada)
+    lista_entrada= int(input("Informe um número inteiro:"))
+
     lista_ordem.append(lista_entrada)
 
 
